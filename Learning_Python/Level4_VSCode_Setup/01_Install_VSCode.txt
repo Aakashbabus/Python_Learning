@@ -1,0 +1,15 @@
+Step1 : Download VS Code for mac from this link https://code.visualstudio.com
+Step2 : move the download file directly to Applications folder and its ready to use
+Step3 : Create a folder on the desktop and open the Folder from VS Code 
+Step4 : create a Test.py file in the main folder and create Hello world program 
+Step5 : In the terminal of VS Code / from the OS Terminal navigate to the folder on desktop and setup virtual environment 
+        pip3 install virtualenv
+        virtualenv env
+        source env/bin/activate
+        python3 Test.py 
+        deactivate 
+
+
+Virtual Envirnment is created inside of the VS Code and you can install packages like python , etc inside of this environment 
+and this works independently 
+Make sure python interpiter is configured correctely or else you will have to give full path to run the python scripts like /usr/bin/python3

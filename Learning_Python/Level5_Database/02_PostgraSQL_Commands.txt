@@ -1,0 +1,19 @@
+# https://www.postgresql.org/download/                  - ink to install postgraSQL 
+
+#COMMANDS --------------------------------------------# - Remarks---------------------------------------------------------
+# \l                                                    - list all the databases inside the shell
+# create database demodb;                               - create a database with name demodb
+# \c demodb                                             - connect to database demodb
+# drop database demodb;                                 - to delete a database
+# CREATE TABLE students(Name text,Roll int,Age int);    - create a table in the database
+# \d                                                    - get a list of tables in the database with association details
+# INSERT INTO students(Name,Roll,Age) VALUES('sam',1,5);- Insert entries in to the table
+# SELECT * from students;                               - get all the entries from the database
+# SELECT Name from students;                            - get all the entries in the names column of the database
+# SELECT * from students WHERE name='sam';              - get all the entries where name contains sam
+# DELETE FROM students WHERE name = 'sam';               - delete all the rows which has name as sam
+# TRUNCATE  TABLE students                              - delete the table from the database
+#COMMANDS --------------------------------------------# - Remarks---------------------------------------------------------
+
+psycopg2 helps in communicaion between python and postgraSQL database 
+Command to install the same in the virtual environment is - pip install psycopg2-binary

@@ -1,0 +1,25 @@
+Installation of Python on Mac
+------------------------------
+    Python is open source and the package can be downloaded from the below website
+        https://www.python.org/downloads/
+
+    There are versions available for Linux , Mac and Windows , also historic versions are also maintained 
+    Select the right version and the OS before downloading 
+    Here is how the installation process looks like , make sure that the environment variable is set 
+    ( if python3 is not recognised by command prompt while testing ) 
+        https://www.youtube.com/watch?v=ExJHGEn6gt0
+
+
+Installation of Pycharm on Mac
+------------------------------
+    Pycharm is used for multiple lines of python code 
+    https://www.jetbrains.com/pycharm/
+
+    Download the community edition , tick all boxes while installation 
+    Create a new project , choose the path to store the project, give it a name .
+    under the mail folder right click and click new , create a python file 
+    Copy past the below code and click on "play" button to get the output in the terminal below
+
+        print('HelloWorld')
+        a=input("areyoulikingBangalore:")
+        print(a+"\nohisit")

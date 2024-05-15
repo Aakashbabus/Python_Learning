@@ -1,0 +1,29 @@
+https://www.youtube.com/watch?v=hMEyBtsuAJE
+
+Install Home brew 
+Install git from brew 
+Create an account in github
+Create a repository on github
+Use the below commands from VS Code terminal to push your projects to the github 
+
+How to push the local changes to the github cloud repository 
+    git init 
+    git remote set-url origin  https://github.com/Aakashbabus/Python_Learning.git
+    git status
+    git add .                       for adding all files 
+    git add index.html              for adding specific files 
+    git commit -m "Initial Commit"
+    git push -u origin main 
+    enter username 
+    enter SSH key ( find it in settings , developer settings )
+
+How to compare the changes between github and local repository and pull changes from there 
+    git remote -v
+    git fetct origin
+    git diff main origin/main  ( if you get in to the file then press ESC and then type :wq)
+    git pull origin master
+
+
+
+
+
